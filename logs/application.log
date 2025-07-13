@@ -81,3 +81,4 @@
 2025-04-27 10:36:39 [main] INFO  fileActions - Reading the data Chaitanya is a Automation Tester
 2025-04-27 10:36:39 [main] INFO  BaseTest - Closing the browser
 2025-04-29 08:26:38 [main] INFO  prop - File got created succesfully under the given path C:\Java-Selenium-TestNG-Framework\src\main\java\Utils1\config.properties
+2025-05-22 11:52:46 [main] INFO  writeProp - File got created succesfully under the given path C:\Java-Selenium-TestNG-Framework\src\main\java\Utils1\config.properties

@@ -15,7 +15,7 @@ public class writeProp {
 
     public static void main(String[] args) throws IOException {
         Properties properties = new Properties();
-        properties.setProperty("name","chaitanya");
+        properties.setProperty("Name","Chaitanya Bommina");
         properties.setProperty("email","chaitanya.bommina@gmail.com");
         String filePath= System.getProperty("user.dir")+"\\src\\main\\java\\Utils1\\config.properties";
         FileOutputStream fos = new FileOutputStream(filePath);
@@ -24,5 +24,4 @@ public class writeProp {
         log.info("File got created succesfully under the given path " + filePath);
 
     }
-
 }

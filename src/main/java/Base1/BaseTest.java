@@ -45,6 +45,9 @@ public class BaseTest {
 
     }
 
+    private static ThreadLocal<WebDriver> driver1 =
+            new ThreadLocal<>();
+
     @AfterMethod
     public void tearDown(ITestResult result){
        log.info("Closing the browser");
